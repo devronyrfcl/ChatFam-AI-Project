@@ -1,0 +1,27 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.6393133)
+
+newmtl lambert43
+kd 0.3581 0.3015 0
+illum 1
+
+newmtl lambert46
+kd 0.5 0.5 0.5
+illum 1
+
+newmtl lambert47
+kd 0.4107 0.1771 0.1771
+illum 1
+
+newmtl lambert9
+kd 0.0675 0.0469 0.0193
+illum 1
+
+newmtl lambert50
+kd 1 0.5974 0
+illum 1
+
+newmtl lambert48
+kd 0.5 0.5 0.5
+illum 1
+
