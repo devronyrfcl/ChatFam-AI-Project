@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160064830181",
+    "project_id": "chatfarm-837de",
+    "storage_bucket": "chatfarm-837de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160064830181:android:1421f60b5f47edfc00b20c",
+        "android_client_info": {
+          "package_name": "com.SparkTech.ChatFarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1g-6Ir9FoajnmLT120oI5wByrI0v0cXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
