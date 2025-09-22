@@ -1,22 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class StringEvent : UnityEvent<string> { }
 
 public class ButtonSelector : MonoBehaviour
 {
     [Header("Button Setup")]
-    public Button[] buttons; // Assign buttons in inspector
+    public Button[] buttons;
     public Sprite normalSprite;
     public Sprite selectedSprite;
 
     [Header("Text Colors")]
-    public Color normalTextColor = Color.black;
-    public Color selectedTextColor = Color.white;
+    public Color normalTextColor = Color.white;
+    public Color selectedTextColor = Color.yellow;
 
     [Header("Selected Value")]
-    public string selectedValue; // Stores the chosen option
+    public string selectedValue;
 
-    // Internal references
+    [Header("Events")]
+    public StringEvent OnValueSelected; // Assign in inspector
+
     private Image[] buttonImages;
     private TextMeshProUGUI[] buttonTexts;
 
@@ -36,11 +42,10 @@ public class ButtonSelector : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            int index = i; // Local copy for closure
+            int index = i;
             buttonImages[i] = buttons[i].GetComponent<Image>();
             buttonTexts[i] = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
 
-            // Initialize sprites & text colors
             buttonImages[i].sprite = normalSprite;
             if (buttonTexts[i] != null)
                 buttonTexts[i].color = normalTextColor;
@@ -51,7 +56,6 @@ public class ButtonSelector : MonoBehaviour
 
     private void OnButtonClicked(int index)
     {
-        // Reset all buttons
         for (int i = 0; i < buttonImages.Length; i++)
         {
             buttonImages[i].sprite = normalSprite;
@@ -59,25 +63,21 @@ public class ButtonSelector : MonoBehaviour
                 buttonTexts[i].color = normalTextColor;
         }
 
-        // Set clicked button
         buttonImages[index].sprite = selectedSprite;
         if (buttonTexts[index] != null)
             buttonTexts[index].color = selectedTextColor;
 
-        // Store selected value
         selectedValue = values[index];
+
+        // 🔥 Notify listeners
+        OnValueSelected.Invoke(selectedValue);
     }
 
-    // Call this function when you want to "proceed"
     public void Proceed()
     {
         if (string.IsNullOrEmpty(selectedValue))
-        {
             Debug.LogWarning("⚠️ No value selected!");
-        }
         else
-        {
             Debug.Log("✅ Proceeding with value: " + selectedValue);
-        }
     }
 }

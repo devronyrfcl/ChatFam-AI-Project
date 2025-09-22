@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.ComponentModel;
+using UnityEngine;
 
 public class OrbitCamera : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class OrbitCamera : MonoBehaviour
     private float x = 0.0f; // Current horizontal rotation
     private float y = 0.0f; // Current vertical rotation
     private bool isZoomed = false;
+    public bool isControllable = true;
 
     void Start()
     {
@@ -71,6 +73,8 @@ public class OrbitCamera : MonoBehaviour
 
     void HandleTouchInput()
     {
+        if (!isControllable) return;
+
         if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
@@ -100,5 +104,15 @@ public class OrbitCamera : MonoBehaviour
         if (angle < -360F) angle += 360F;
         if (angle > 360F) angle -= 360F;
         return Mathf.Clamp(angle, min, max);
+    }
+
+    public void CameraMove()
+    {
+        isControllable = true;
+
+    }
+    public void CameraStop()
+    {
+        isControllable = false;
     }
 }
