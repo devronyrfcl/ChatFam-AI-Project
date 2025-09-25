@@ -282,7 +282,7 @@ public class ScrapScript_Slider2 : MonoBehaviour
         }, 1f, fakeLoadDuration).SetEase(Ease.Linear).OnComplete(() =>
         {
             //after fake loading is done, load the real scene
-            SceneManager.LoadScene("MainApp");
+            SceneManager.LoadScene("MainApp 2");
         });
     }
 

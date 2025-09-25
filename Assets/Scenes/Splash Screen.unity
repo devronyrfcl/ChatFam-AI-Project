@@ -1871,7 +1871,7 @@ GameObject:
   - component: {fileID: 97482807}
   - component: {fileID: 97482806}
   m_Layer: 5
-  m_Name: 65 or more Button (8)
+  m_Name: 67 or more Button (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18791,6 +18791,7 @@ MonoBehaviour:
   - {fileID: 678437268}
   - {fileID: 1286105177}
   - {fileID: 1964613367}
+  - {fileID: 97482806}
   normalSprite: {fileID: 21300000, guid: 49398c4672e3eaf49b61c53ebffdf99f, type: 3}
   selectedSprite: {fileID: 21300000, guid: c6f8e91083dfca744be2c779b445f793, type: 3}
   normalTextColor: {r: 1, g: 1, b: 1, a: 1}
@@ -18804,6 +18805,7 @@ MonoBehaviour:
   - 42-50
   - 51-58
   - 59-67
+  - 67
 --- !u!1 &883658493
 GameObject:
   m_ObjectHideFlags: 0
@@ -22391,8 +22393,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00002503395, y: 15.109909}
-  m_SizeDelta: {x: 804.0989, y: 963.3325}
+  m_AnchoredPosition: {x: -0.00002503395, y: -46.486504}
+  m_SizeDelta: {x: 804.0989, y: 840.1396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038420256
 MonoBehaviour:
