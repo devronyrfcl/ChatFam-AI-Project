@@ -14,7 +14,7 @@ public class CharacterSpawner : MonoBehaviour
 
     void Start()
     {
-        SpawnFemale(); // default on start
+        SpawnMale(); // default on start
     }
 
     public void SpawnMale()
