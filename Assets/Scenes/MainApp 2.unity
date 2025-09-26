@@ -30568,7 +30568,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Angela
+  m_text: '[AI Name]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0838efb0e04b2145af345245d6f9ea1, type: 2}
   m_sharedMaterial: {fileID: -8449050902915711197, guid: c0838efb0e04b2145af345245d6f9ea1,
@@ -30596,8 +30596,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.1
-  m_fontSizeBase: 46.1
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -64975,7 +64975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff0bfff4fba32084897cdbcefe35023e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  malePrefab: {fileID: 8157735442341358078, guid: c66cc7be2ea92d949a391bd79147b197,
+  malePrefab: {fileID: 5179758725239083436, guid: 42b114a366197ec4b93b9fcf739238f9,
     type: 3}
   femalePrefab: {fileID: 5179758725239083436, guid: 42b114a366197ec4b93b9fcf739238f9,
     type: 3}

@@ -63,7 +63,7 @@ public class ScrapScript_Slider2 : MonoBehaviour
         // Initialize final panel elements
         if (finalImage != null)
         {
-            finalImage.transform.localScale = Vector3.one * 0.7f;
+            finalImage.transform.localScale = Vector3.one * 1f;
             finalImage.color = new Color(finalImage.color.r, finalImage.color.g, finalImage.color.b, 0.1f);
         }
         if (finalButton != null)

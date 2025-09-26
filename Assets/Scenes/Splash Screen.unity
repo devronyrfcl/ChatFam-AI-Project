@@ -18646,7 +18646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Son
+  m_text: Daughter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b07dfa54bbcdcad43ad3f8e1eb2aae5b, type: 2}
   m_sharedMaterial: {fileID: 7627759118775038795, guid: b07dfa54bbcdcad43ad3f8e1eb2aae5b,
@@ -22393,8 +22393,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00002503395, y: -46.486504}
-  m_SizeDelta: {x: 804.0989, y: 840.1396}
+  m_AnchoredPosition: {x: 7.853301, y: -72}
+  m_SizeDelta: {x: 819.8055, y: 874.1706}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038420256
 MonoBehaviour:
@@ -22416,7 +22416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7664804c711ef434fa59f5068714e0ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ee35fe2b4d4a01479902cf4cf2c0708, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31418,7 +31418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1461221037
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35167,15 +35167,15 @@ RectTransform:
   m_GameObject: {fileID: 1649246397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1936101493}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 136.02548}
-  m_SizeDelta: {x: 620, y: 1050}
+  m_AnchoredPosition: {x: -2.225, y: 117.03}
+  m_SizeDelta: {x: 804.45, y: 963.8375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649246399
 MonoBehaviour:
@@ -35190,14 +35190,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.09803922}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: afb9d5857f1d92e46bcbf06d5082d396, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ee35fe2b4d4a01479902cf4cf2c0708, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -42936,7 +42936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "What family member role you\u2019re looking for?"
+  m_text: Most of all, I want my AI Family to guide me in...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0838efb0e04b2145af345245d6f9ea1, type: 2}
   m_sharedMaterial: {fileID: -8449050902915711197, guid: c0838efb0e04b2145af345245d6f9ea1,
@@ -44116,7 +44116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -91.99994}
+  m_AnchoredPosition: {x: 0, y: -486}
   m_SizeDelta: {x: -86.1589, y: -1155.3197}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084129327
@@ -44773,7 +44773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c3290af2201a4ed46b4320538917772c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7af0956c6a171454a970f6c7dafbd728, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
